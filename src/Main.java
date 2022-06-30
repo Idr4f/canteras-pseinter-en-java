@@ -17,11 +17,11 @@ public class Main {
         mascota.edad = scan.nextInt();
 
         System.out.println("cual es su nombre y su apellido (escribir y enviar primero nombre y" +
-                "luego apellido");
+                " luego apellido");
         dueño.nombre = scan.next();
         dueño.apellido = scan.next();
 
-        System.out.println(mascota.nombre +  " es un@ " + mascota.tipoDeMascota + ", El cual tiene"
-         + mascota.edad + " años de edad" + dueño.nombre +  dueño.apellido + " es actualmente el dueño");
+        System.out.println(mascota.nombre +  " es un@ " + mascota.tipoDeMascota + ", El cual tiene "
+         + mascota.edad + " años de edad " + dueño.nombre +  dueño.apellido + " es actualmente el dueño");
     }
 }

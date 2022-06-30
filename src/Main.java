@@ -22,6 +22,6 @@ public class Main {
         dueño.apellido = scan.next();
 
         System.out.println(mascota.nombre +  " es un@ " + mascota.tipoDeMascota + ", El cual tiene "
-         + mascota.edad + " años de edad " + dueño.nombre +  dueño.apellido + " es actualmente el dueño");
+         + mascota.edad + " años de edad " + dueño.nombre + " " + dueño.apellido + " es actualmente el dueño");
     }
 }

@@ -10,14 +10,13 @@ public class Main {
         System.out.println("Nombre de su mascota?");
         mascota.nombre  = scan.next();
 
-        System.out.println("Su mascota es un?");
+        System.out.println("Su mascota es un@?");
         mascota.tipoDeMascota = scan.next();
 
         System.out.println("que edad tiene su mascota");
         mascota.edad = scan.nextInt();
 
         System.out.println(mascota.nombre +  " es un@ " + mascota.tipoDeMascota + ", El cual tiene"
-         + mascota.edad + " años de edad" + dueño.nombre +  dueño.apellido + " es actualmente el dueño"
-        );
+         + mascota.edad + " años de edad" + dueño.nombre +  dueño.apellido + " es actualmente el dueño");
     }
 }
